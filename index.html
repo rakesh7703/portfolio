@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio Website
+        </title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dfabebff40.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                   <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                   </ul>
+                   <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Designer </p>
+                    <h1>Hi,I'm <span>Rakesh</span></h1>
+                </div>
+            </div>    
+        </div>
+       
+        <div id="about"> 
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"></div>
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> Currently pursuing B.Tech in Computer Science and Engineering to obtain a challenging position that fully utilizes my
+                        skills and provides me with suitable opportunities to grow my technical and communicational skills.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experince')">Experince</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br> C ,  Python, Java, SQL</li>
+                            <li><span>Web Development</span><br> HTML, CSS, JavaScript.</li>
+                            <li><span>Soft skills </span><br> Team Work , Adaptability , Communication Skills ,Problem Solving , Listening.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2024 jun-jul</span><br>Data Analytics Intern at Unified Mentor</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Bhashyam High School</li>
+                            <li><span>2021</span><br>Vignan Junior Collge</li>
+                            <li><span>2025</span><br>Vasireddy Venkatadri Institute of Technology</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <p>Crafting responsive, visually appealing, and user-friendly websites with a focus on functionality and seamless user experience.</p>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>python progamming</h2>
+                        <p>Developing scalable solutions for data analysis, automation, web development, and AI using Python and its versatile frameworks.</p>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Query Language Programming</h2>
+                        <p> Expertise in writing optimized SQL queries to manage, analyze, and transform data for actionable insights.</p>
+                        
+                    </div>
+        
+                </div>
+            </div>
+
+        </div>
+        <!----portflio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to talented people around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to talented people around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online shopping App</h3>
+                            <p>The app connects you to talented people around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>rakeshkolli5555@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>6281918528</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/rakesh7703_/profilecard/?igsh=MXRwcjB4d2I4cmcwYw=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/KolliRakesh5?s=08 "><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/kolli-rakesh-130703227/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a class="download-cv-btn" href="images/my-CV.pdf" download>Download CV</a>
+                      
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links")
+            var tabcontents=document.getElementsByClassName("tab-contents")
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove('active-link');
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right ="0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+                
+            }
+        </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzU79wFhJqKqIQupYaETZW962JMpp8W-iBkjrPQBoZJF3qQeE7Sw3xX2jifjZ9iEtm1/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+    </body>
+   
+</html>
